@@ -1,5 +1,7 @@
 # PhoneKey: an ESP32 BLE phone-as-key
 
+![PhoneKey demo: tapping unlock on the phone turns on the LED](docs/phonekey_demo.gif)
+
 An Android phone unlocks an ESP32 over Bluetooth Low Energy. The ESP32 runs a BLE
 GATT server that owns the lock state and drives an LED. The Android client scans
 for it, subscribes to state changes, and sends lock/unlock commands. State lives in
